@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>Visão do projeto v3 - MAS P3 by G107</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+
+	<body class="homepage">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo container">
+				<div>
+					<p>Quiosque de venda de medicamentos à porta de farmácias</p>
+				</div>
+			</div>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav" class="skel-layers-fixed">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				
+				<li>
+					<!-- Dropdown -->
+					<a>Deliverables</a>
+					<ul>
+						<li><a href="quadro.html">Quadro-resumo dos entregáveis</a></li>
+						<li>
+							<a href="inception.html">Inception #1
+							<ul>
+								<li>
+									<a href="inception1_1.html">Versão 1.0</a>
+									<a href="inception1_2.html">Versão 1.1</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="elaboration.html">Elaboration #1</a>
+							<ul>
+								<li>
+									<a href="elaboration1_1.html">Versão 1.0</a>
+									<a href="elaboration1_2.html">Versão 1.1</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="elaboration.html">Elaboration #2</a>
+							<ul>
+								<li>
+									<a href="elaboration2_1.html">Versão 2.0</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="construction.html">Construction #1</a>
+							<ul>
+								<li>
+									<a href="construction1_1.html">Versão 1.0</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+				<li class="current">
+					<a href="materiais.html">Materiais</a>
+					<ul>
+						<li><a href="e1.html">E1</a></li>
+						<li><a href="e2.html">E2</a></li>
+						<li><a href="e3.html">E3</a></li>
+						<li><a href="e4.html">E4</a></li>
+						<li><a href="e5.html">E5</a></li>
+						<li><a href="e6.html">E6</a></li>
+						<li><a href="e7.html">E7</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		
+
+		<!-- Main -->
+		<div id="main-wrapper">
+			<div id="main" class="container">
+				<div class="row">
+					<div class="12u">
+						<div class="content">
+							
+							<!-- Content -->
+							<article class="box page-content">
+								<header>
+									<h2>Visão do projeto (v3)</h2>
+								</header>
+
+								<!-- SUMARIO -->
+								<section>
+									<br><h3>Sumário executivo</h3>
+									<p align="justify">
+										Inserido no plano curricular da disciplina de Modelação e Análise de Sistemas, do curso de Engenharia Informática, da Universidade de Aveiro, este relatório provém da execução do trabalho prático P3 referente ao (mini) projeto de criação de especificações para um sistema de informação.
+
+										<br>Considerando o tempo de espera em filas nas farmácias e a necessidade de fazer deslocações à noite para encontrar uma farmácia de serviço, decidimos projetar um sistema de informação que possibilitasse a compra de medicamentos não sujeitos a receita médica através de um quiosque localizado à porta das farmácias.
+
+										<br>Assim, neste relatório serão abordadas as preocupações encontradas (por nós e por especialistas), decisões tomadas de acordo com os desafios encontrados e uma solução de negócio para este sistema e para a sua gestão.
+									</p>
+								</section>
+
+								<!-- CONTEXTO -->
+								<section>
+									<h3>Contexto do negócio</h3>
+									<p align="justify">
+
+										<!-- CLIENTE -->
+										<b>Cliente</b>
+
+										<br>Este projeto não pretende apenas poupar tempo e deslocações aos utentes das farmácias, mas também agilizar os recursos dos farmacêuticos. 
+
+										<br>As farmácias recebem todos os dias dezenas, ou até centenas, de pessoas que pretendem adquirir medicamentos com ou sem receita médica. Apesar de o aconselhamento destes profissionais ser bastante importante ao adquirir estes produtos, há medicamentos que são banais para as pessoas\footnote{ou seja, que as pessoas já estão tão habituadas a comprar e sabem exatamente para o que servem e como utilizar}. Portanto, o tempo dispendido, nestes casos, a atender os utentes, poderia ser mais bem aproveitado a prestar ajuda a pessoas que necessitam de aconselhamento em relação a determinado medicamento ou situação, ou até a fazer inventários e outras tarefas de "bastidor".
+
+										<!-- SITUAÇAO -->
+										<br><b>Situação atual</b>
+
+										<br>Uma pessoa dirige-se a uma farmácia para comprar um medicamento não sujeito a receita médica e deparar-se com uma fila. A pessoa ou escolhe esperar e talvez chegar atrasada a um compromisso ou desiste e tenta passar na/noutra farmácia mais tarde. 
+
+										<br>Também pode acontecer uma pessoa precisar comprar um medicamento, por exemplo, para as dores de cabeça, mas todas as farmácias já se encontram fechadas. Talvez haja uma farmácia perto da casa desta pessoa, no entanto a farmácia de serviço está a 10km e, para adquirir o medicamento que necessita, terá de se deslocar essa distância, se tiver os meios para tal.
+
+										<br>\Mas os problemas não surgem apenas aos utentes de uma farmácia. O farmacêutico pode estar com alguma dificuldade em atender todos os utentes que se dirigiram naquele dia à sua farmácia, e a maioria sabe exatamente o que pretende comprar. Ainda, o farmacêutico talvez tenha que preencher um inventário ou encomendar medicamentos em falta, porém não pode deixar de atender os utentes.
+
+										<br>Como agilizar todo este processo?
+
+										<!-- OPORTUNIDADES -->
+										<br><b>Novas oportunidades</b>
+
+										<br>O sistema que pretendemos projetar servirá para que os utentes da farmácia possam dirigir-se ao quiosque colocado à porta da farmácia para adquirir medicamentos não sujeitos a receita médica comuns.
+
+										<br>Desta forma, os farmacêuticos poderão dedicar mais tempo e atenção a situações que requeiram determinantemente a sua presença, bem como as necessidades dos utentes serão satisfeitas de forma mais fácil e rápida.
+								</section>
+
+								<!-- APRESENTAÇAO -->
+								<section>
+									<h3>Apresentação do produto pretendido</h3>
+									<p align="justify">
+
+										<!-- OBJETIVOS -->
+										<b>Objetivos e âmbito do produto</b>
+
+										<br>De acordo com a Constituição da República Portuguesa aprovada em 1976, qualquer cidadão tem direito à protecção da saúde e o dever de a defender e promover, independentemente da sua condição económica. Uma das alíneas referente ao direito à saúde (art.º 64) refere precisamente que, para assegurar o direito à protecção da saúde, o Estado está incumbido, em parte, de comercializar e usar produtos químicos, biológicos e farmacêuticos e outros meios de tratamento e diagnóstico.
+
+										<br>Um estabelecimento que defende e promove o direito à saúde é a Farmácia, na qual se preparam ou vendem medicamentos e outros materiais necessários para cuidar da saúde. No entanto, o tempo gasto pelas pessoas para comprarem medicamentos e a forma como se processa a venda pode ser agilizados, recorrendo à tecnologia.
+
+										<br>Assim, pretendemos que o máximo de farmácias contenha um quiosque de venda automática de medicamentos não sujeitos a receita médica. O quiosque deverá estar embutido na parede da própria farmácia e terá uma interface que orientará o utente e lhe dará as informações necessárias para encontrar o medicamento que necessita.
+
+										<br>O quiosque só conterá medicamentos de uso comum e com dosagens baixas. Também não serão vendidos medicamentos que possam apresentar um risco para a saúde do utente, como a pílula do dia seguinte, pois nestes casos o acompanhamento e aconselhamento por parte de um profissional (um farmacêutico) é imprescindível.
+
+										<br>Para além disto, haverá uma central que regulará todos os quiosques a nível de stock de medicamentos, manutenção, entre outros que se venham a mostrar necessários [para tal, a central terá uma base de dados]. Cada quiosque deve enviar um relatório com o ponto da situação (com estatísticas dos medicamentos mais procurados, com possíveis avisos de stock e manutenção, podendo conter mais informações relevantes) quinzenalmente. O aviso de que o stock de um medicamento está prestes a acabar deve ser enviado quando a quantidade desse medicamento no quiosque chegar a cinco. Este aviso é enviado para a central de controlo e esta notifica a farmácia correspondente que deve repôr o medicamento em causa.
+
+										<!-- CAPACIDADES -->
+										<br><b>Resumo das capacidades pretendidas</b>
+
+										<style type="text/css">
+										.tg  {border-collapse:collapse;border-spacing:0;}
+										.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+										.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+										.tg .tg-c9cr{font-style:italic}
+										</style>
+
+										<br><table class="tg">
+										  <tr>
+										    <th class="tg-c9cr">Benefícios-chave</th>
+										    <th class="tg-c9cr">Suporte incluído no sistema</th>
+										  </tr>
+										  <tr>
+										    <td class="tg-031e">Redução de filas nas farmácias e de deslocações desnecessárias a uma farmácia de serviço à noite</td>
+										    <td class="tg-031e">Utentes dirigem-se ao quiosque para comprar medicamentos não sujeitos a receita médica</td>
+										  </tr>
+										  <tr>
+										    <td class="tg-031e">Aumento da produtividade dos farmacêuticos</td>
+										    <td class="tg-031e">Ao passo que menos utentes precisam se dirigir ao interior da farmácia, o farmacêutico pode dedicar mais tempo a,preencher um inventário ou encomendar medicamentos em falta</td>
+										  </tr>
+										  <tr>
+										    <td class="tg-031e">Aumento de segurança à noite</td>
+										    <td class="tg-031e">Farmácia não precisa estar aberta à noite, pois o quiosque vende os medicamentos não sujeitos a receita médica mais comuns</td>
+										  </tr>
+										  <tr>
+										    <td class="tg-031e">Gestão automática de quiosques</td>
+										    <td class="tg-031e">Central (plataforma) de contolo regula todos os quiosques e notifica as farmácias quando necessário</td>
+										  </tr>
+										</table>
+
+										(Tabela 1: Mapeamento dos principais benefícios de negócio e das respetivas características chave do sistema)
+
+										<!-- UTILIZAÇAO -->
+										<br><b>Ambiente de utilização</b>
+
+										<br>Qualquer pessoa que pretenda comprar um medicamento não sujeito a receita médica, pode dirigir-se a uma PharmaMachine, o quiosque de venda automática destes medicamentos que se encontrará à porta da farmácia. O sistema terá uma interface simples de utilizar a fim de ser acessível a qualquer pessoa. O idioma utilizado será o português.
+
+										<br>O utente da farmácia que necessitar de um medicamento não sujeito a receita médica pode dirigir-se a qualquer momento do dia à PharmaMachine, visto que todos os quiosques funcionarão 24h/dia. A interação será de um para um, pois um quiosque é utilizado por uma pessoa de cada vez. No entanto, todos os quiosques são geridos simultaneamente pela mesma plataforma, a central de controlo.
+
+										<br>Os quiosques estarão sujeitos a sujidade da rua, pelo que devem ser feitos com materiais resistentes e com cores que não se note demasiado a sujidade. Sendo possíveis alvos de vandalismo, devem ser também embutidos na parede, como os multibancos, para tentar minimizar os danos.
+
+										<!-- DEPENDENCIAS -->
+										<br><b>Pressupostos e dependências</b>
+
+										<br>A interação entre o utente e o quiosque é feita através de um ecrã tátil. O ecrã deve estar devidamente protegido, pois a sua inutilização devido a mau uso e/ou desgaste provocaria também a inutilização do próprio quiosque.
+
+										<br>A rutura de stock de um medicamento pode comprometer a utilização pretendida. Assim, cada quiosque envia um aviso de que o stock de um medicamento está prestes a acabar quando a quantidade desse medicamento no quiosque chegar a cinco. Este aviso é enviado para a central de controlo e esta notifica a farmácia correspondente que deve repôr o medicamento em causa.
+								</section>
+
+								<!-- FONTES -->
+								<section>
+									<h3>Fontes e material de referência</h3>
+									<p align="justify">
+
+										Consideramos que o produto apresentado tem potencial. Porém, com o intuito de determinar possíveis problemas e desafios, decidimos fazer um pequeno estudo de mercado através de um inquérito que divulgámos nas redes sociais e ainda decidimos fazer algumas entrevistas a farmacêuticos.
+
+										<br>As perguntas e os resultados do inquérito e das entrevistas seguem em anexo. Em seguida, são apresentadas as conclusões que retiramos destas fontes de referência.
+
+										<!-- CONCLUSOES -->
+										<br><b>Conclusões retiradas</b>
+
+										<br>No inquérito obtivemos 78 respostas, sendo que a camada predominante foi a camada jovem (idades inferiores a 25 anos), representando 83.3% das respostas (isto pode dever-se ao facto de o inquérito ter sido divulgado nas redes sociais).
+
+										<br>Pensamos que muitas pessoas iriam aderir a esta forma de adquirir medicamentos não sujeitos a receita médica, pois os que disseram que usariam de facto o quiosque e os que apenas utilizariam em certas situações representam cerca de 82.1% das 78 respostas.
+
+										<br>O facto de a grande maioria das pesssoas que responderam ao inquérito (88.5%) não conhecer nenhum sistema como este e, sendo que 82% acham que estes quiosques trariam mais conforto às pessoas (especialmente por não ter de procurar uma farmácia de serviço à noite), achamos que este sistema seria inovar e útil para as pessoas. No entanto, como se poderá notar em algumas respostas dos farmacêuticos, apesar de útil, os quiosques poderiam ser usados de forma não moderada.
+
+										<br>Reparámos que os medicamentos com mais procura seriam os analgésicos (80.8\%), contracetivos (53.8%), antiinflamatórios (47.4%) e os genéricos de qualquer categoria (32.1%). Os métodos de pagamento preferidos seriam o multibanco (85.9%) e dinheiro (67.9%).
+
+										<br><br>Pensamos que as farmácias comprariam um quiosque, porém não aceitariam que todos os medicamentos (mesmo sendo não sujeitos a receita médica) fossem nele vendidos.
+
+										<br>De forma geral, os farmacêuticos concordam com a nossa visão de que as pessoas adeririam a esta forma de comprar estes medicamentos, no entanto expressaram a sua preocupação quanto à falta de acompanhamento e informação por parte de um profissional habilitado.
+
+										<br>Percebemos que, muito provavelmente, estes quiosques seriam alvos de vandalismo e/ou de tentativas de roubo, pelo que achamos que, ao serem instalados nas farmácias, deviam ser embutidos na parede da farmácia (à semelhança dos multibancos).
+
+										<br>Face às procupações encontradas, reformulamos algumas características no nosso projeto e este relatório corresponde já numa visão do projeto mais ponderada.
+								</section>
+
+								<!-- ANEXOS -->
+								<section>
+									<h3>Anexos</h3>
+									<p align="justify">
+										<br><img src="images/responses.png">
+										<br>(Figura 1: Estudo de mercado - Inquérito)
+
+										<br><br><img src="images/farm.png">
+										<br>(Figura 2: Entrevistas aos farmacêuticos)
+								</section>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<footer id="footer" class="container">
+			<div class="row 200%">
+				<div class="12u">
+					<!-- About -->
+					<section>
+						<h2 class="major"><span>Template TXT</span></h2>
+						<p>
+							This is <strong>TXT</strong>, yet another free responsive site template designed by
+							<a href="http://n33.co">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
+							<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
+							whatever you're working on (personal or commercial), just be sure to give us credit for the design.
+							That's basically it :)
+						</p>
+					</section>
+				</div>
+			</div>
+				
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul class="menu">
+					<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

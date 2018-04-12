@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>CaU: descrição detalhada v2 - MAS P3 by G107</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+
+	<body class="homepage">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo container">
+				<div>
+					<p>Quiosque de venda de medicamentos à porta de farmácias</p>
+				</div>
+			</div>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav" class="skel-layers-fixed">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				
+				<li>
+					<!-- Dropdown -->
+					<a>Deliverables</a>
+					<ul>
+						<li><a href="quadro.html">Quadro-resumo dos entregáveis</a></li>
+						<li>
+							<a href="inception.html">Inception #1
+							<ul>
+								<li>
+									<a href="inception1_1.html">Versão 1.0</a>
+									<a href="inception1_2.html">Versão 1.1</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="elaboration.html">Elaboration #1</a>
+							<ul>
+								<li>
+									<a href="elaboration1_1.html">Versão 1.0</a>
+									<a href="elaboration1_2.html">Versão 1.1</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="elaboration.html">Elaboration #2</a>
+							<ul>
+								<li>
+									<a href="elaboration2_1.html">Versão 2.0</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="construction.html">Construction #1</a>
+							<ul>
+								<li>
+									<a href="construction1_1.html">Versão 1.0</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+				<li class="current">
+					<a href="materiais.html">Materiais</a>
+					<ul>
+						<li><a href="e1.html">E1</a></li>
+						<li><a href="e2.html">E2</a></li>
+						<li><a href="e3.html">E3</a></li>
+						<li><a href="e4.html">E4</a></li>
+						<li><a href="e5.html">E5</a></li>
+						<li><a href="e6.html">E6</a></li>
+						<li><a href="e7.html">E7</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		
+
+		<!-- Main -->
+		<div id="main-wrapper">
+			<div id="main" class="container">
+				<div class="row">
+					<div class="12u">
+						<div class="content">
+							
+							<!-- Content -->
+							<article class="box page-content">
+								<header>
+									<h2>Casos de uso: descrição detalhada (v2)</h2>
+								</header>
+
+								<style type="text/css">
+								.tg  {border-collapse:collapse;border-spacing:0;}
+								.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+								.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+								.tg .tg-uce2{font-weight:bold;font-family:Arial, Helvetica, sans-serif;}
+								<col style="width: 30%">
+								</style>
+
+								<!-- QUIOSQUE -->
+								<section>
+									<h3>Quiosque</h3>
+
+									<table class="tg">
+										
+									  <tr>
+									    <th class="tg-uce2">Casos de utilização</th>
+									    <th class="tg-uce2">Descrição detalhada dos cenários</th>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Apresentação de medicamentos.</td>
+									    <td class="tg-031e">Começa por apresentar os medicamentos ao utente, sendo que pode procurar por categoria ou numa lista ordenada alfabeticamente.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Apresentação das opções de pagamento.</td>
+									    <td class="tg-031e">Ao efetuar a compra de um medicamento, apresenta as opções de pagamento (dinheiro, multibanco ou NFC).</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Feedback se dinheiro introduzido é suficiente.</td>
+									    <td class="tg-031e">Compra só é finalizada quando o montante é todo inserido (no caso do método de pagamento ser dinheiro).</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Validação do cartão.</td>
+									    <td class="tg-031e">Verifica se o cartão de multibanco inserido está válido e/ou se tem saldo para efetuar compra.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Validação do NFC.</td>
+									    <td class="tg-031e">Verifica se o NFC funcionou corretamente e se tem saldo na conta.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Entrega do medicamento.</td>
+									    <td class="tg-031e">Dispensa medicamento ao utente.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Devolver,troco/cartão e fatura.</td>
+									    <td class="tg-031e">Devolve a fatura pretendida, o troco (se necessário) ou cartão.</td>
+									  </tr>
+									</table>
+								</section>
+
+								<!-- CENTRAL -->
+								<section>
+									<h3>Central de controlo</h3>
+
+									<table class="tg">
+									  <tr>
+									    <th class="tg-uce2">Casos de utilização</th>
+									    <th class="tg-uce2">Descrição detalhada dos cenários</th>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Controlo de todos os quiosques.</td>
+									    <td class="tg-031e">A plataforma tem como função principal gerir e controlar todos os quiosques de venda.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Notificação ao farmacêutico que deve repôr stock de medicamento.</td>
+									    <td class="tg-031e">Uma função importante é indicar ao farmacêutico que deve repor determinado medicamento quando a quantidade deste no quiosque é igual ou inferior a cinco.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Estimativa dos medicamentos mais vendidos.</td>
+									    <td class="tg-031e">Calcula a percentagem dos medicamentos mais vendidos em todos os quiosques para perceber quais tem mais saída para, por exemplo, se perceber quais devem ser repostos com mais regularidade.</td>
+									  </tr>
+									</table>
+								</section>
+
+								<!-- UTENTE -->
+								<section>
+									<br><h3>Utente</h3>
+
+									<table class="tg">
+									  <tr>
+									    <th class="tg-uce2">Casos de utilização</th>
+									    <th class="tg-uce2">Descrição detalhada dos cenários</th>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Seleção de medicamento.</td>
+									    <td class="tg-031e">Depois de se dirigir ao quiosque, procura o medicamento que pretende adquirir.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Introdução do NIF.</td>
+									    <td class="tg-031e">Ao selecionar a opção de comprar um medicamento, deve introduzir o número de contribuinte se pretender fatura com NIF.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Seleção tipo de pagamento.</td>
+									    <td class="tg-031e">O utente faz a seleção do tipo de pagamento que deseja dinheiro, multibanco ou NFC).</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Introdução de moedas/notas ou cartão ou encostar telemóvel ao quiosque (no caso de NFC).</td>
+									    <td class="tg-031e">Introdução de moedas/notas ou cartão ou encostar telemóvel ao quiosque para o efetuar o pagamento do montante que aparece no ecrã do sistema, e que aparecerá na fatura.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Recolha de medicamento.</td>
+									    <td class="tg-031e">Recolhe medicamentodo quiosque.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Recolha de troco/cartão e fatura.</td>
+									    <td class="tg-031e">Recolhe a fatura pretendida, o troco (se necessário) ou cartão.</td>
+									  </tr>
+									</table>
+								</section>
+
+								<!-- FARMACEUTICO -->
+								<section>
+									<h3>Farmacêutico</h3>
+
+									<table class="tg">
+									  <tr>
+									    <th class="tg-uce2">Casos de utilização</th>
+									    <th class="tg-uce2">Descrição detalhada dos cenários</th>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Prestação de aconselhamento quando solicitado.</td>
+									    <td class="tg-031e">Quando solicitada alguma informação ou ajuda, o farmacêutico deve ser capaz de aconselhar o utente.</td>
+									  </tr>
+									  <tr>
+									    <td class="tg-031e">Reposição de stock de medicamentos.</td>
+									    <td class="tg-031e">Quando receber uma notificação por parte da central de controlo sobre a rutura de stock de um medicamento, deve repô-lo.</td>
+									  </tr>
+									</table>
+								</section>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<footer id="footer" class="container">
+			<div class="row 200%">
+				<div class="12u">
+					<!-- About -->
+					<section>
+						<h2 class="major"><span>Template TXT</span></h2>
+						<p>
+							This is <strong>TXT</strong>, yet another free responsive site template designed by
+							<a href="http://n33.co">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
+							<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
+							whatever you're working on (personal or commercial), just be sure to give us credit for the design.
+							That's basically it :)
+						</p>
+					</section>
+				</div>
+			</div>
+				
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul class="menu">
+					<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

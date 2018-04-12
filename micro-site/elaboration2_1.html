@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>Elaboration#2 v2.0 - MAS P3 by G107</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+
+	<body class="homepage">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo container">
+				<div>
+					<p>Quiosque de venda de medicamentos à porta de farmácias</p>
+				</div>
+			</div>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav" class="skel-layers-fixed">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				
+				<li class="current">
+					<!-- Dropdown -->
+					<a>Deliverables</a>
+					<ul>
+						<li><a href="quadro.html">Quadro-resumo dos entregáveis</a></li>
+						<li>
+							<a href="inception.html">Inception #1
+							<ul>
+								<li>
+									<a href="inception1_1.html">Versão 1.0</a>
+									<a href="inception1_2.html">Versão 1.1</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="elaboration.html">Elaboration #1</a>
+							<ul>
+								<li>
+									<a href="elaboration1_1.html">Versão 1.0</a>
+									<a href="elaboration1_2.html">Versão 1.1</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="elaboration.html">Elaboration #2</a>
+							<ul>
+								<li>
+									<a href="elaboration2_1.html">Versão 2.0</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="construction.html">Construction #1</a>
+							<ul>
+								<li>
+									<a href="construction1_1.html">Versão 1.0</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+				<li><a href="materiais.html">Materiais</a>
+					<ul>
+						<li><a href="e1.html">E1</a></li>
+						<li><a href="e2.html">E2</a></li>
+						<li><a href="e3.html">E3</a></li>
+						<li><a href="e4.html">E4</a></li>
+						<li><a href="e5.html">E5</a></li>
+						<li><a href="e6.html">E6</a></li>
+						<li><a href="e7.html">E7</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		
+
+		<!-- Main -->
+		<div id="main-wrapper">
+			<div id="main" class="container">
+				<div class="row">
+					<div class="12u">
+						<div class="content">
+							
+							<!-- Content -->
+							<article class="box page-content">
+								<header>
+									<h2>Elaboration #2 - V2.0</h2>
+								</header>
+
+								<!-- CONCEITO -->
+								<section>
+									<br><h3>Conceito de arquitetura</h3>
+									<p align="justify">
+
+										<br>Este projeto é composto por duas componentes essenciais: quiosques de venda de medicamentos não sujeitos a receita médica (o número de quiosques dependerá da quantidade de farmácias aderentes) e o sistema central de controlo, que cordena todos os quiosques. O objetivo desta solução é acrescentar serviços de apoio à indústria farmacêutica, nomeadamente a aquisição de medicamentos sem receita médica por parte do utente.
+
+										<br>Este projeto apresenta uma solução para alguns problemas do quotidiano, tais como, deslocação a farmácias de serviço à noite e tempo de atendimento. Foi, portanto, feito um estudo de mercado e de cliente, através de um questionário (a várias pessoas, os possíveis futuros utilizadores dos quiosques) e entrevistas a farmácias da cidade de Aveiro. Os resultados destes estudos foram já apresentados no <i>Relatório técnico: Visão do projeto</i>.
+								</section>
+
+								<!-- MODELO -->
+								<section>
+									<br><h3>Modelo de comportamento</h3>
+									<p align="justify">
+
+										<!-- OPERAÇOES -->
+										<b>Operações de sistema</b>
+
+										<br>O seguinte diagrama explicita as operações do sistema projetado.
+										<br><img src="images/diagrama_operacoes_sistema.png">
+										<p>(Diagrama de sequência - operações do sistema)
+
+										<!-- INTERAÇOES -->
+										<br><br><b>Integrações com sistemas externos</b>
+
+										<br>A troca de mensagens com sistemas externos dá-se somente quando a compra de um medicamento é feita com cartão MB ou através de NFC, sendo então necessário que o centro de controlo comunique com uma entidade bancária, verificando o saldo da conta, e faça a transferência. Após efetuado o pagamento, dá-se a atualização da conta.
+
+										<br>O diagrama acima explicita já estas interações com sistemas externos.
+								</section>
+
+								<!-- ARQUITETURA -->
+								<section>
+									<h3>Arquitetura aplicacional</h3>
+									<p align="justify">
+
+										<br>O utente dirige-se a um quiosque e escolhe o medicamento que pretende adquirir e efetua o pagamento. O papel do quiosque será recolher a informação dessa interação e passá-la à central de controlo. Por sua vez, a central de controlo contém informações de todos os quiosques (pois estão ligados em rede) e notificações/avisos que guarda na sua base de dados. Os avisos necessários são ainda enviados para a farmácia. O papel do farmacêutico é prestar auxílio aos utentes e repôr o stock de medicamentos quando necessário.
+
+										<br>O seguinte diagrama explicita as operações do sistema projetado.
+										<br><img src="images/diagrama_arquitetura_aplicacional.png">
+										<p>(Diagrama de pacotes - arquitetura lógica)
+								</section>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<footer id="footer" class="container">
+			<div class="row 200%">
+				<div class="12u">
+					<!-- About -->
+					<section>
+						<h2 class="major"><span>Template TXT</span></h2>
+						<p>
+							This is <strong>TXT</strong>, yet another free responsive site template designed by
+							<a href="http://n33.co">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
+							<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
+							whatever you're working on (personal or commercial), just be sure to give us credit for the design.
+							That's basically it :)
+						</p>
+					</section>
+				</div>
+			</div>
+				
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul class="menu">
+					<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

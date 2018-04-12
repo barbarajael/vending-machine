@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+    <!-- Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>PharmaMachine</title>   
+
+    <meta name="description" content="Insert Your Site Description" /> 
+
+    <!-- Mobile Specifics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>   
+
+    <!-- Mobile Internet Explorer ClearType Technology -->
+    <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+    <!-- Bootstrap -->
+    <link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="_include/css/main.css" rel="stylesheet">
+
+    <!-- Supersized -->
+    <link href="_include/css/supersized.css" rel="stylesheet">
+    <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+    <!-- FancyBox -->
+    <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+    <!-- Font Icons -->
+    <link href="_include/css/fonts.css" rel="stylesheet">
+
+    <!-- Shortcodes -->
+    <link href="_include/css/shortcodes.css" rel="stylesheet">
+
+    <!-- Responsive -->
+    <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="_include/css/responsive.css" rel="stylesheet">
+
+    <!-- Supersized -->
+    <link href="_include/css/supersized.css" rel="stylesheet">
+    <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="#">
+
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+
+    <!-- Modernizr -->
+    <script src="_include/js/modernizr.js"></script>
+
+    <!-- Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'Insert Your Code']);
+        _gaq.push(['_trackPageview']);
+
+        (function() 
+        {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        function helpFunction() 
+        {
+            alert("Bem vindo!\nNeste quiosque estão à venda 45 medicamentos não sujeitos a receita médica.\n\nSe procura um medicamento que resolva o seu problema, mas não tem nenhum em mente ou não se recorda do nome, escolha a categoria que se encaixa mais na sua situação. A tabela de categorias encontra-se nesta página à esquerda.\nPara selecionar uma categoria basta carregar no botão correspondente.\n\nSe já sabe o nome do medicamento que pretende adquirir, pode procurá-lo na lista que se encontra nesta página à direita. A lista está ordenada alfabeticamente.\nPara selecionar um medicamento basta carregar em cima da sua imagem.\n\nObrigado!");
+        }
+    </script>
+    <!-- End Analytics -->
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="sticky-nav">
+            <nav class="icons-example">
+                <ul>
+                    <li><a onclick="helpFunction()"><span class="font-icon-question-sign"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Our Work Section -->
+    <div id="work" class="page">
+    	<div class="container">
+        	<!-- Title Page -->
+            <div class="row">
+                <div class="span22">
+                    <div class="title-page">
+                        <h2 class="title">PharmaMachine</h2>
+                        <h3 class="title-description">Quiosque de venda automática de medicamentos não sujeitos a receita médica</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- End Title Page -->
+            
+            <!-- Portfolio Projects -->
+            <div class="row">
+            	<div class="span3">
+                	<!-- Filter -->
+                    <nav id="options" class="work-nav">
+                        <ul id="filters" class="option-set" data-option-key="filter">
+                        	<li class="type-work">Escolha um:</li>
+                            
+                            <li><a href="#filter" data-option-value="*" class="selected">Todos os medicamentos</a></li>
+                            
+                            <li>
+                                <a href="#filter" data-option-value="">Analgésicos</a>
+
+                                <ul>
+                                    <li><a href="#filter" data-option-value=".cabeca">Dores de cabeça</a></li>
+
+                                    <li><a href="#filter" data-option-value=".ouvidos">Dores de ouvidos</a></li>
+
+                                    <li><a href="#filter" data-option-value=".costas">Dores de costas</a></li>
+
+                                    <li><a href="#filter" data-option-value=".joelhos">Dores nos joelhos</a></li>
+                                    
+                                    <li><a href="#filter" data-option-value=".ossos">Dores de ossos</a></li>
+
+                                    <li><a href="#filter" data-option-value=".menstruais">Dores menstruais</a></li>
+
+                                    <li><a href="#filter" data-option-value=".queimaduras">Queimaduras/Feridas</a></li>
+                                </ul>
+
+                            </li>
+                            
+                            <li><a href="#filter" data-option-value=".antiinflamatorios">Antiinflamatórios</a></li>
+                            
+                            <li><a href="#filter" data-option-value=".azia">Azia/Indigestão</a></li>
+                            
+                            <li><a href="#filter" data-option-value=".calmantes">Calmantes</a></li>
+                            
+                            <li><a href="#filter" data-option-value=".fraldas">Fraldas</a></li>
+                            
+                            <li><a href="#filter" data-option-value=".gripe">Gripe/Tosse</a></li>
+                            
+                            <li><a href="#filter" data-option-value=".pensos">Pensos</a></li>
+
+                            <li><a href="#filter" data-option-value=".preservativos">Preservativos</a></li>
+                        </ul>
+                    </nav>
+                    <!-- End Filter -->
+                </div>
+                
+                <div class="span9">
+                	<div class="row">
+                    	<section id="projects">
+                        	<ul id="thumbs">
+    							<!-- ACTIFED -->
+                                <li class="item-thumbs span2 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Actifed" href="_include/img/meds/actifed.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/actifed.jpg" alt="DescriptionActifed">
+                                </li>
+                                 
+                                <!-- ACTIFED XAROPE -->
+                                <li class="item-thumbs span2 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Actifed Xarope" href="_include/img/meds/actifedXarope.png">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/actifedXarope.png" alt="DescriptionActifedXarope">
+                                </li>
+                                
+                                <!-- ANANASE -->
+                                <li class="item-thumbs span3 antiinflamatorios">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Ananase" href="_include/img/meds/ananase.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/ananase.jpg" alt="DescriptionAnanase">
+                                </li>
+                                 
+                                <!-- ANTIGRIPINE -->
+                                <li class="item-thumbs span3 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Antigrippine" href="_include/img/meds/antigrippine.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/antigrippine.jpg" alt="DescriptionAntigrippine">
+                                </li>
+                                 
+                                <!-- ASPIRINA -->
+                                <li class="item-thumbs span3 cabeca costas ossos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Aspirina 500mg" href="_include/img/meds/aspirina.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/aspirina.jpg" alt="DescriptionAspirina">
+                                </li>
+
+                                <!-- BUCAGEL -->
+                                <li class="item-thumbs span4 antiinflamatorios">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Bucagel" href="_include/img/meds/bucagel.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/bucagel.jpg" alt="DescriptionBucagel">
+                                </li>
+                                 
+                                <!-- BENURON -->
+                                <li class="item-thumbs span3 antiinflamatorios">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Ben-U-Ron 500mg" href="_include/img/meds/benuron.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/benuron.jpg" alt="DescriptionBenuron">
+                                </li>
+                                 
+                                <!-- BENURON SUPOSITORIOS -->
+                                <li class="item-thumbs span3 antiinflamatorios">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Ben-U-Ron 125mg supositórios" href="_include/img/meds/benuronSupositorioactifed.png">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/benuronSupositorio.png" alt="DescriptionBenuronSupositorios">
+                                </li>
+                                 
+                                <!-- BEPANTHENE -->
+                                <li class="item-thumbs span3 queimaduras">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Bepanthene creme 30mg" href="_include/img/meds/bepanthene.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/bepanthene.jpg" alt="DescriptionBepanthene">
+                                </li>
+                                 
+                                <!-- BISOLVON -->
+                                <li class="item-thumbs span2 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Bisolvon Linctus" href="_include/img/meds/bisolvon.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/bisolvon.jpg" alt="DescriptionBisolvon">
+                                </li>
+                                 
+                                <!-- CORYZALLIA -->
+                                <li class="item-thumbs span3 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Corizallia" href="_include/img/meds/coryzalia.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/coryzalia.jpg" alt="DescriptionCoryzallia">
+                                </li>
+                                 
+                                <!-- ENO -->
+                                <li class="item-thumbs span2 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Eno digestivo" href="_include/img/meds/eno.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/eno.jpg" alt="DescriptionEno">
+                                </li>
+
+                                <!-- FENISTIL -->
+                                <li class="item-thumbs span3 queimaduras">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Fenistil gel 30ml" href="_include/img/meds/fenistil.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/fenistil.jpg" alt="DescriptionFenistil">
+                                </li>
+
+                                <!-- F DODOT -->
+                                <li class="item-thumbs span3 fraldas">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Fraldas Dodot Sensitive" href="_include/img/meds/fraldas/dodot.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/fraldas/dodot.jpg" alt="DescriptionDodot">
+                                </li>
+
+                                <!-- F DRYNITES -->
+                                <li class="item-thumbs span2 fraldas">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Fralda calção Drynites Huggies 3-5 Anos" href="_include/img/meds/fraldas/drynites.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/fraldas/drynites.jpg" alt="DescriptionDrynites">
+                                </li>
+
+                                <!-- F AFFECTIVE -->
+                                <li class="item-thumbs span3 fraldas">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Fralda incontinência Affective Advanced" href="_include/img/meds/fraldas/affective.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/fraldas/affective.jpg" alt="DescriptionAffective">
+                                </li>
+
+                                <!-- F LINDOR -->
+                                <li class="item-thumbs span2 fraldas">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Fraldas Lindor Elastico Noite" href="_include/img/meds/fraldas/lindor.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/fraldas/lindor.jpg" alt="DescriptionLindor">
+                                </li>
+
+                                <!-- GAVISCON -->
+                                <li class="item-thumbs span3 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Gaviscon" href="_include/img/meds/gaviscon.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/gaviscon.jpg" alt="DescriptionGaviscon">
+                                </li>
+
+                                <!-- GAVISCON DUEFET -->
+                                <li class="item-thumbs span3 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Gaviscon Duefet" href="_include/img/meds/gavisconDuefet.png">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/gavisconDuefet.png" alt="DescriptionGavisconDuefet">
+                                </li>
+
+                                <!-- HALIBUT -->
+                                <li class="item-thumbs span2 queimaduras">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Halibut 100g" href="_include/img/meds/halibut.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                   
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/halibut.jpg" alt="DescriptionHalibut">
+                                </li>
+
+                                <!-- IBUPROFENO -->
+                                <li class="item-thumbs span3 ouvidos costas joelhos costas">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Ibuprofeno Actavis 200mg" href="_include/img/meds/ibuprofeno.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/ibuprofeno.jpg" alt="DescriptionIbuprofeno">
+                                </li>
+
+                                <!-- KOMPENSAN -->
+                                <li class="item-thumbs span3 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Kompensan-S" href="_include/img/meds/kompensan.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/kompensan.jpg" alt="DescriptionKompensan">
+                                </li>
+
+                                <!-- MEBOCAINA -->
+                                <li class="item-thumbs span3 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Mebocaina Forte" href="_include/img/meds/mebocaina.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/mebocaina.jpg" alt="DescriptionMebocaina">
+                                </li>
+
+                                <!-- NEO -->
+                                <li class="item-thumbs span2 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Neo-Sinefrina" href="_include/img/meds/neo.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/neo.jpg" alt="DescriptionNeo">
+                                </li>
+
+                                <!-- PARACETAMOL -->
+                                <li class="item-thumbs span3 cabeca ouvidos costas joelhos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Paracetamol Generis 500mg" href="_include/img/meds/paracetamol.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/paracetamol.jpg" alt="DescriptionParacetamol">
+                                </li>
+
+                                <!-- P HANSAPLAST MINI -->
+                                <li class="item-thumbs span2 pensos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Hansaplast Elastic Mini" href="_include/img/meds/pensos/hansaplastMini.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/pensos/hansaplastMini.jpg" alt="DescriptionHansaplastMini">
+                                </li>
+
+                                <!-- P HANSAPLAST4 -->
+                                <li class="item-thumbs span2 pensos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Hansaplast 4 Tamanhos" href="_include/img/meds/pensos/hansaplast4.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/pensos/hansaplast4.jpg" alt="DescriptionHansaplast4">
+                                </li>
+
+                                <!-- P PHARMADOCT -->
+                                <li class="item-thumbs span3 pensos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Pensos Pharmadoct p/queimaduras" href="_include/img/meds/pensos/pharmadoct.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/pensos/pharmadoct.jpg" alt="DescriptionPharmadoct">
+                                </li>
+
+                                <!-- P EVAX -->
+                                <li class="item-thumbs span3 pensos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Pensos Higienicos Evax Cotton Like Normal" href="_include/img/meds/pensos/evax.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/pensos/evax.jpg" alt="DescriptionEvax">
+                                </li>
+                                 
+                                <!-- P CONTROL -->
+                                <li class="item-thumbs span2 preservativos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Control Nature Easy Way" href="_include/img/meds/preservativos/controlEasyWay.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/preservativos/controlEasyWay.jpg" alt="DescriptionControl">
+                                </li>
+
+                                <!-- P DUREX COMFORT -->
+                                <li class="item-thumbs span2 preservativos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Durex Comfort" href="_include/img/meds/preservativos/controlEasyWaydurexComfort.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/preservativos/durexComfort.jpg" alt="DescriptionDurexComfort">
+                                </li>
+
+                                <!-- P REAL FEAL -->
+                                <li class="item-thumbs span2 preservativos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Durex Real Feal" href="_include/img/meds/preservativos/durexRealFeel.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/preservativos/durexRealFeel.jpg" alt="DescriptionDurexRealFeel">
+                                </li>
+
+                                <!-- P HARMONY XL -->
+                                <li class="item-thumbs span2 preservativos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Harmony XL Fit" href="_include/img/meds/preservativos/harmonyXL.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/preservativos/harmonyXL.jpg" alt="DescriptionHarmonyXL">
+                                </li>
+
+                                <!-- P HARMONY SABORES -->
+                                <li class="item-thumbs span2 preservativos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Harmony c/ sabores" href="_include/img/meds/preservativos/harmonySabores.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/preservativos/harmonySabores.jpg" alt="DescriptionHarmonySabores">
+                                </li>
+
+                                <!-- PROTON -->
+                                <li class="item-thumbs span3 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Proton 10mg" href="_include/img/meds/proton.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/proton.jpg" alt="DescriptionProton">
+                                </li>
+
+                                <!-- RENNIE -->
+                                <li class="item-thumbs span3 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Rennie Digestif" href="_include/img/meds/rennie.png">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/rennie.png" alt="DescriptionRennie">
+                                </li>
+
+                                <!-- RIOPAN -->
+                                <li class="item-thumbs span3 azia">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Riopan 800mg" href="_include/img/meds/riopan.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Descriptriopanion -->
+                                    <img src="_include/img/meds/riopan.jpg" alt="DescriptionRiopan">
+                                </li>
+
+                                <!-- SEDATIF -->
+                                <li class="item-thumbs span3 calmantes">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Sedatif PC" href="_include/img/meds/sedatif.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/sedatif.jpg" alt="DescriptionSedatif">
+                                </li>
+
+                                <!-- SPIDIFEN -->
+                                <li class="item-thumbs span3 cabeca menstruais">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Spidifen 400mg" href="_include/img/meds/spidifen.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/spidifen.jpg" alt="DescriptionSpidifen">
+                                </li>
+
+                                <!-- STREPFEN -->
+                                <li class="item-thumbs span3 gripe">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Strepfen" href="_include/img/meds/strepfen.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/strepfen.jpg" alt="DescriptionStrepfen">
+                                </li>
+
+                                <!-- TRANSACT -->
+                                <li class="item-thumbs span3 costas">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="TransAct Lat Flurbiprofeno 40mg" href="_include/img/meds/transAct.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/transAct.jpg" alt="DescriptionTransAct">
+                                </li>
+
+                                <!-- TRIFEN -->
+                                <li class="item-thumbs span3 cabeca menstruais">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Trifen 200mg" href="_include/img/meds/trifene.jpgpng">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/trifene.png" alt="DescriptionTrifen">
+                                </li>
+
+                                <!-- VALDISPERT -->
+                                <li class="item-thumbs span3 calmantes">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Valdispert 125mg" href="_include/img/meds/valdispert.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/valdispert.jpg" alt="DescriptionValdispert">
+                                </li>
+
+                                <!-- VALDISPERT NOITE -->
+                                <li class="item-thumbs span3 calmantes">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Valdispert Noite" href="_include/img/meds/valdispertNoite.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/valdispertNoite.jpg" alt="DescriptionValdispertNoite">
+                                </li>
+
+                                <!-- VOLTAREN -->
+                                <li class="item-thumbs span4 costas joelhos">
+                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                    <a class="hover-wrap fancybox" href="medicamento.html" data-fancybox-group="gallery" title="Voltaren Emugel 10m/g" href="_include/img/meds/voltaren.jpg">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb font-icon-plus"></span>
+                                    </a>
+                                    
+                                    <!-- Thumb Image and Description -->
+                                    <img src="_include/img/meds/voltaren.jpg" alt="DescriptionVoltaren">
+                                </li>
+                            </ul>
+                        </section>
+                	</div>
+                </div>
+            </div>
+            <!-- End Portfolio Projects -->
+        </div>
+    </div>
+    <!-- End Our Work Section -->
+
+    <!-- Footer -->
+    <footer>
+    	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#">
+    	<i class="font-icon-arrow-simple-up"></i>
+    </a>
+    <!-- End Back to Top -->
+
+
+    <!-- Js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+    <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+    <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+    <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+    <script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+    <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+    <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+    <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+    <script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+    <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+    <script src="_include/js/main.js"></script> <!-- Default JS -->
+    <!-- End Js -->
+
+</body>
+</html>
