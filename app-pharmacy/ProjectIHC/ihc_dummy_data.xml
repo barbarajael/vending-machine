@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Categories>
+  <Category name="Analgesicos">
+    <Medicine id="1" subcategory="Dores de cabeça">
+      <Name>Aspirina 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionAspirina.pdf</Description>
+      <Image>..\Images\meds\aspirina.jpg</Image>
+      <Price>3.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="2" subcategory="Dores de cabeça">
+      <Name>Paracetamol Generis 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionParacetamol.pdf</Description>
+      <Image>..\Images\meds\paracetamol.jpg</Image>
+      <Price>1.00</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="3" subcategory="Dores de cabeça">
+      <Name>Spidifen 400mg</Name>
+      <Description>..\..\Descricoes\DescriptionSpidifen.pdf</Description>
+      <Image>..\Images\meds\spidifen.jpg</Image>
+      <Price>3.70</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="4" subcategory="Dores de cabeça">
+      <Name>Trifene 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionTrifene200.pdf</Description>
+      <Image>..\Images\meds\trifene.png</Image>
+      <Price>4.45</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine  id="5" subcategory="Dores de ouvidos">
+      <Name>Ibuprofeno Actavis 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionIbuprofeno.pdf</Description>
+      <Image>..\Images\meds\ibuprofeno.jpg</Image>
+      <Price>1.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="50" subcategory="Dores de ouvidos">
+      <Name>Paracetamol Generis 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionParacetamol.pdf</Description>
+      <Image>..\Images\meds\paracetamol.jpg</Image>
+      <Price>1.00</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="51" subcategory="Dores de costas">
+      <Name>Aspirina 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionAspirina.pdf</Description>
+      <Image>..\Images\meds\aspirina.jpg</Image>
+      <Price>3.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine  id="53" subcategory="Dores de costas">
+      <Name>Ibuprofeno Actavis 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionIbuprofeno.pdf</Description>
+      <Image>..\Images\meds\ibuprofeno.jpg</Image>
+      <Price>1.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="52" subcategory="Dores de costas">
+      <Name>Paracetamol Generis 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionParacetamol.pdf</Description>
+      <Image>..\Images\meds\paracetamol.jpg</Image>
+      <Price>1.00</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="6" subcategory="Dores de costas">
+      <Name>TransAct Lat 40mg</Name>
+      <Description>..\..\Descricoes\DescriptionTransAct.pdf</Description>
+      <Image>..\Images\meds\transAct.jpg</Image>
+      <Price>13.10</Price>
+      <Toma>Saquetas</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="7" subcategory="Dores de costas">
+      <Name>Voltaren Emulgel 10mg/g</Name>
+      <Description>..\..\Descricoes\DescriptionVoltaren.pdf</Description>
+      <Image>..\Images\meds\voltaren.jpg</Image>
+      <Price>9.60</Price>
+      <Toma>Gel</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="55" subcategory="Dores nos joelhos">
+      <Name>Ibuprofeno Actavis 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionIbuprofeno.pdf</Description>
+      <Image>..\Images\meds\ibuprofeno.jpg</Image>
+      <Price>1.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="54" subcategory="Dores nos joelhos">
+      <Name>Paracetamol Generis 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionParacetamol.pdf</Description>
+      <Image>..\Images\meds\paracetamol.jpg</Image>
+      <Price>1.00</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="56" subcategory="Dores nos joelhos">
+      <Name>Voltaren Emulgel 10mg/g</Name>
+      <Description>..\..\Descricoes\DescriptionVoltaren.pdf</Description>
+      <Image>..\Images\meds\voltaren.jpg</Image>
+      <Price>9.60</Price>
+      <Toma>Gel</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="58" subcategory="Dores de ossos">
+      <Name>Aspirina 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionAspirina.pdf</Description>
+      <Image>..\Images\meds\aspirina.jpg</Image>
+      <Price>3.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="57" subcategory="Dores de ossos">
+      <Name>Ibuprofeno Actavis 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionIbuprofeno.pdf</Description>
+      <Image>..\Images\meds\ibuprofeno.jpg</Image>
+      <Price>1.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+
+    <Medicine id="60" subcategory="Dores menstruais">
+      <Name>Spidifen 400mg</Name>
+      <Description>..\..\Descricoes\DescriptionSpidifen.pdf</Description>
+      <Image>..\Images\meds\spidifen.jpg</Image>
+      <Price>3.70</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="61" subcategory="Dores menstruais">
+      <Name>Trifene 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionTrifene200.pdf</Description>
+      <Image>..\Images\meds\trifene.png</Image>
+      <Price>4.45</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="36" subcategory="Queimaduras/Feridas">
+      <Name>Bepanthene creme</Name>
+      <Description>..\..\Descricoes\DescriptionBepanthene.pdf</Description>
+      <Image>..\Images\meds\bepanthene.jpg</Image>
+      <Price>4.35</Price>
+      <Toma>Pomada</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="34" subcategory="Queimaduras/Feridas">
+      <Name>Fenistil Gel</Name>
+      <Description>..\..\Descricoes\DescriptionFenistil.pdf</Description>
+      <Image>..\Images\meds\fenistil.jpg</Image>
+      <Price>6.50</Price>
+      <Toma>Gel</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="35" subcategory="Queimaduras/Feridas">
+      <Name>Halibut</Name>
+      <Description>..\..\Descricoes\DescriptionHalibut.pdf</Description>
+      <Image>..\Images\meds\halibut.jpg</Image>
+      <Price>6.10</Price>
+      <Toma>Pomada</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Antiinflamatórios">
+    <Medicine id="14">
+      <Name>Ananase</Name>
+      <Description>..\..\Descricoes\DescriptionAnanase.pdf</Description>
+      <Image>..\Images\meds\ananase.jpg</Image>
+      <Price>9.35</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="13">
+      <Name>Ben-U-Ron 125mg supositórios</Name>
+      <Description>..\..\Descricoes\DescriptionBenuronSupositorios.pdf</Description>
+      <Image>..\Images\meds\benuronSupositorio.png</Image>
+      <Price>1.80</Price>
+      <Toma>Supositorio</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="15">
+      <Name>Ben-U-Ron 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionBenuron.pdf</Description>
+      <Image>..\Images\meds\benuron.jpg</Image>
+      <Price>1.30</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="37">
+      <Name>Bucagel</Name>
+      <Description>..\..\Descricoes\DescriptionBucagel.pdf</Description>
+      <Image>..\Images\meds\bucagel.jpg</Image>
+      <Price>3.50</Price>
+      <Toma>Gel</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="62">
+      <Name>Ibuprofeno Actavis 200mg</Name>
+      <Description>..\..\Descricoes\DescriptionIbuprofeno.pdf</Description>
+      <Image>..\Images\meds\ibuprofeno.jpg</Image>
+      <Price>1.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="63">
+      <Name>Paracetamol Generis 500mg</Name>
+      <Description>..\..\Descricoes\DescriptionParacetamol.pdf</Description>
+      <Image>..\Images\meds\paracetamol.jpg</Image>
+      <Price>1.00</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>true</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Azia/Indigestão">
+    <Medicine id="8">
+      <Name>Gaviscon</Name>
+      <Description>..\..\Descricoes\DescriptionGaviscon.pdf</Description>
+      <Image>..\Images\meds\gaviscon.jpg</Image>
+      <Price>4.55</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="10">
+      <Name>Gaviscon Duefet</Name>
+      <Description>..\..\Descricoes\DescriptionGavisconDuefet.pdf</Description>
+      <Image>..\Images\meds\gavisconDuefet.png</Image>
+      <Price>6.60</Price>
+      <Toma>Saquetas</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="38">
+      <Name>Kompensan-S</Name>
+      <Description>..\..\Descricoes\DescriptionKompensan.pdf</Description>
+      <Image>..\Images\meds\kompensan.jpg</Image>
+      <Price>2.95</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="9">
+      <Name>Rennie Digestif</Name>
+      <Description>..\..\Descricoes\DescriptionRennie.pdf</Description>
+      <Image>..\Images\meds\rennie.png</Image>
+      <Price>3.45</Price>
+      <Toma>Pastilha</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="11">
+      <Name>Proton 10mg</Name>
+      <Description>..\..\Descricoes\DescriptionProton.pdf</Description>
+      <Image>..\Images\meds\proton.jpg</Image>
+      <Price>7.50</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="12">
+      <Name>Riopan 800mg</Name>
+      <Description>..\..\Descricoes\DescriptionRiopan.pdf</Description>
+      <Image>..\Images\meds\riopan.jpg</Image>
+      <Price>5.30</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="25">
+      <Name>Eno digestivo</Name>
+      <Description>..\..\Descricoes\DescriptionEno.pdf</Description>
+      <Image>..\Images\meds\eno.jpg</Image>
+      <Price>5.80</Price>
+      <Toma>Efervescente</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Calmantes">
+    <Medicine id="39">
+      <Name>Sedatif PC</Name>
+      <Description>..\..\Descricoes\DescriptionSedatif.pdf</Description>
+      <Image>..\Images\meds\sedatif.jpg</Image>
+      <Price>9.80</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="21">
+      <Name>Valdispert 125mg</Name>
+      <Description>..\..\Descricoes\DescriptionValdispert.pdf</Description>
+      <Image>..\Images\meds\valdispert.jpeg</Image>
+      <Price>10.90</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="22">
+      <Name>ValdispertNoite</Name>
+      <Description>..\..\Descricoes\DescriptionValdispertNoite.pdf</Description>
+      <Image>..\Images\meds\valdispertNoite.jpg</Image>
+      <Price>15.55</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Fraldas">
+    <Medicine id="26">
+      <Name>Fraldas Dodot Sensitive</Name>
+      <Description>..\..\Descricoes\DescriptionDodot.pdf</Description>
+      <Image>..\Images\meds\dodot.jpg</Image>
+      <Price>9.60</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="27">
+      <Name>Fralda calção Drynites Huggies 3-5 Anos</Name>
+      <Description>..\..\Descricoes\DescriptionDrynites.pdf</Description>
+      <Image>..\Images\meds\drynites.jpg</Image>
+      <Price>6.99</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="28">
+      <Name>Fralda incontinência Affective Advanced</Name>
+      <Description>..\..\Descricoes\DescriptionAffective.pdf</Description>
+      <Image>..\Images\meds\affective.jpg</Image>
+      <Price>9.99</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="29">
+      <Name>Fraldas Lindor Elástico Noite</Name>
+      <Description>..\..\Descricoes\DescriptionLindor.pdf</Description>
+      <Image>..\Images\meds\lindor.jpg</Image>
+      <Price>16.50</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Gripe/Tosse">
+    <Medicine id="18">
+      <Name>Actifed 60mg</Name>
+      <Description>..\..\Descricoes\DescriptionActifed.pdf</Description>
+      <Image>..\Images\meds\actifed.jpg</Image>
+      <Price>2.05</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="19">
+      <Name>Actifed Xarope 6mg/ml</Name>
+      <Description>..\..\Descricoes\DescriptionActifedXarope.pdf</Description>
+      <Image>..\Images\meds\actifedXarope.jpg</Image>
+      <Price>2.20</Price>
+      <Toma>Xarope</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="40">
+      <Name>Antigrippine</Name>
+      <Description>..\..\Descricoes\DescriptionAntigrippine.pdf</Description>
+      <Image>..\Images\meds\antigrippine.jpg</Image>
+      <Price>4.15</Price>
+      <Toma>Comprimidos</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="41">
+      <Name>Bisolvon Linctus</Name>
+      <Description>..\..\Descricoes\DescriptionBisolvon.pdf</Description>
+      <Image>..\Images\meds\bisolvon.jpg</Image>
+      <Price>5.99</Price>
+      <Toma>Xarope</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="42">
+      <Name>Coryzalia</Name>
+      <Description>..\..\Descricoes\DescriptionCoryzalia.pdf</Description>
+      <Image>..\Images\meds\coryzalia.jpg</Image>
+      <Price>7.00</Price>
+      <Toma>Pastilha</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="43">
+      <Name>Mebocaína Forte</Name>
+      <Description>..\..\Descricoes\DescriptionMebocaina.pdf</Description>
+      <Image>..\Images\meds\mebocaina.jpg</Image>
+      <Price>4.95</Price>
+      <Toma>Pastilha</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="44">
+      <Name>Neo-Sinefrina</Name>
+      <Description>..\..\Descricoes\DescriptionNeo.pdf</Description>
+      <Image>..\Images\meds\neo.jpg</Image>
+      <Price>5.00</Price>
+      <Toma>Gotas</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="45">
+      <Name>Strepfen</Name>
+      <Description>..\..\Descricoes\DescriptionStrepfen.pdf</Description>
+      <Image>..\Images\meds\strepfen.jpg</Image>
+      <Price>5.95</Price>
+      <Toma>Pastilha</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Pensos">
+    <Medicine id="30">
+      <Name>Hansaplast Elastic Mini</Name>
+      <Description>..\..\Descricoes\DescriptionHansaplastMini.pdf</Description>
+      <Image>..\Images\meds\hansaplastMini.jpg</Image>
+      <Price>1.30</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="31">
+      <Name>Hansaplast 4 Tamanhos</Name>
+      <Description>..\..\Descricoes\DescriptionHansaplast4.pdf</Description>
+      <Image>..\Images\meds\hansaplast4.jpg</Image>
+      <Price>2.70</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="32">
+      <Name>Pensos Pharmadoct p/ queimaduras c/ gaze</Name>
+      <Description>..\..\Descricoes\DescriptionPharmadoct.pdf</Description>
+      <Image>..\Images\meds\pharmadoct.jpg</Image>
+      <Price>1.50</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="33">
+      <Name>Pensos Higiénicos Evax Cotton Like Normal</Name>
+      <Description>..\..\Descricoes\DescriptionEvax.pdf</Description>
+      <Image>..\Images\meds\evax.jpg</Image>
+      <Price>2.30</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+
+  <Category name="Preservativos">
+    <Medicine id="16">
+      <Name>Preservativo masculino Control Nature Easy Way</Name>
+      <Description>..\..\Descricoes\DescriptionControlEasyWay.pdf</Description>
+      <Image>..\Images\meds\controlEasyWay.jpg</Image>
+      <Price>6.20</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="17">
+      <Name>Preservativo masculino Durex Natural Comfort</Name>
+      <Description>..\..\Descricoes\DescriptionDurexComfort.pdf</Description>
+      <Image>..\Images\meds\durexComfort.jpg</Image>
+      <Price>9.70</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="20">
+      <Name>Preservativo masculino Durex Real Feel</Name>
+      <Description>..\..\Descricoes\DescriptionDurexRealFeel.pdf</Description>
+      <Image>..\Images\meds\durexRealFeel.jpg</Image>
+      <Price>12.85</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="23">
+      <Name>Preservativo masculino Harmony c/ Sabores</Name>
+      <Description>..\..\Descricoes\DescriptionHarmonySabores.pdf</Description>
+      <Image>..\Images\meds\harmonySabores.jpg</Image>
+      <Price>4.60</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+
+    <Medicine id="24">
+      <Name>Preservativo masculino Harmony XL Fit</Name>
+      <Description>..\..\Descricoes\DescriptionHarmonyXL.pdf</Description>
+      <Image>..\Images\meds\harmonyXL.jpg</Image>
+      <Price>4.60</Price>
+      <Toma>Aplicar</Toma>
+      <Generico>false</Generico>
+    </Medicine>
+  </Category>
+</Categories>

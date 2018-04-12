@@ -1,0 +1,127 @@
+﻿<Window x:Class="ProjectIHC.Pagamento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        KeyDown="Window_KeyDown" Style="{StaticResource MainWindow}"
+        Background="Beige" Title="Vending Machine" Height="576" Width="1024">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid Grid.Row="0" Grid.ColumnSpan="2" Background="Firebrick">
+                <Button BorderBrush="Transparent" Click="Button_Click_Undo" Height="60" Width="60" Background="Transparent" Margin="10,0,0,0" HorizontalAlignment="Left">
+                    <Image Source="..\Images\IconUNDO.png"/>
+                </Button>
+                <Button BorderBrush="Transparent" Click="Button_Click_Home" Height="60" Width="60" Background="Transparent" Margin="0,0,0,0" HorizontalAlignment="Center">
+                    <Image Source="..\Images\IconHOME.png"/>
+                </Button>
+
+                <Button BorderBrush="Transparent" Click="Button_Click_Help" Height="60" Width="60" Background="Transparent" Margin="0,0,10,0" HorizontalAlignment="Right">
+                    <Image Source="..\Images\IconHELP.png"/>
+                </Button>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1"  VerticalAlignment="Stretch" Margin="5">
+
+            <Grid Grid.Row="0" Margin="0,5,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" Margin="5" Background="AntiqueWhite">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*" />
+                        <RowDefinition Height="2*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Column="0" Grid.Row="0"  Background="White" Margin="15">
+                        <Image Name="MedImage" Margin="15"/>
+                    </Grid>
+                    <Label  Grid.Column="0" Grid.Row="1" Content="Medicamento" Name="MedName"
+                               HorizontalAlignment="Stretch" Margin="30" VerticalAlignment="Stretch"
+                               FontFamily="Helvetica" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Column="1" Grid.RowSpan="2" Margin="5" Background="AntiqueWhite" >
+
+                    <Grid Grid.Row="0" Margin="0,5,0,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="6*" />
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Content="NÚMERO DO CONTRIBUINTE" FontSize="18" FontFamily="Helvetica"
+                           HorizontalContentAlignment="Center" VerticalAlignment="Center"/>
+                        <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="2*" />
+                                <RowDefinition Height="2*" />
+                                <RowDefinition Height="2*" />
+                                <RowDefinition Height="2*" />
+                            </Grid.RowDefinitions>
+                            <TextBox Grid.Row="0" Grid.Column="1" Name="NIF" Typography.NumeralStyle="Lining" 
+                                     PreviewTextInput="NumberValidationTextBox" FlowDirection="RightToLeft" CharacterCasing="Upper" FontSize="20" FontFamily="Helvetica"
+                                     TextWrapping="Wrap" MaxLines="1" MaxLength="9" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+                            <Button Grid.Row="1" Grid.Column="0" Content="7" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="1" Grid.Column="1" Content="8" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="1" Grid.Column="2" Content="9" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="2" Grid.Column="0" Content="4" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="2" Grid.Column="1" Content="5" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="2" Grid.Column="2" Content="6" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="3" Grid.Column="0" Content="1" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="3" Grid.Column="1" Content="2" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="3" Grid.Column="2" Content="3" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="4" Grid.Column="0" Content="0" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+                            <Button Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Content="Apagar" Click="keyboard_Click" Style="{StaticResource CategoryButton}" Margin="10"/>
+
+                        </Grid>
+                        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="Montante a pagar:" FontSize="18" FontFamily="Helvetica"
+                           HorizontalContentAlignment="Right" VerticalAlignment="Center" />
+                        <Label Name="MedPrice" Grid.Row="2" Grid.Column="2" FontStretch="ExtraExpanded" FontWeight="ExtraBold" Foreground="Red" Content="XX €" FontSize="18" FontFamily="Helvetica"
+                           HorizontalContentAlignment="Left" VerticalAlignment="Center" />
+
+                        <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Content=" MODO DE PAGAMENTO" FontSize="18" FontFamily="Helvetica"
+                           HorizontalContentAlignment="Center" VerticalAlignment="Bottom"/>
+                        <Button Grid.Row="4" Grid.Column="0" Tag="dinheiro" Click="Button_Click_End" Style="{StaticResource CategoryButton}" Margin="20">
+                            <StackPanel Orientation="Horizontal" Margin="20" >
+                                <Image Source="../Images/payments/money.png"/>
+                                <Label Content="Dinheiro" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Button Grid.Row="4" Grid.Column="1" Tag="multibanco" Click="Button_Click_End" Style="{StaticResource CategoryButton}" Margin="20">
+                            <StackPanel Orientation="Horizontal" Margin="20" >
+                                <Image Source="../Images/payments/atm_card.png"/>
+                                <Label Content="Multibanco" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Button Grid.Row="4" Grid.Column="2" Tag="nfc" Click="Button_Click_End" Style="{StaticResource CategoryButton}" Margin="20">
+                            <StackPanel Orientation="Horizontal" Margin="20" >
+                                <Image Source="../Images/payments/nfc_pay.png"/>
+                                <Label Content="NFC" FontSize="18" Foreground="White" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
