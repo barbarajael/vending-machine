@@ -1,6 +1,6 @@
 # Vending Machine
 
-Project for the course of **Human-Computer Interaction** (app) and **System Modeling and Analysis** (website) @ DETI-UA [2015].
+Projects for the course of **Human-Computer Interaction** (app) and **System Modeling and Analysis** (website) @ DETI-UA [2015].
 
 > App done in collaboration with Rui Neto.
 
